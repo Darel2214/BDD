@@ -1,0 +1,56 @@
+///////////////////TUTOR///////
+INSERT INTO TUTOR VALUES ('001','1307690170','Vianny Vicente','Blondet Molina'   ,'Ecuatoriana'	,'El Palmar'	  	 ,'2933350','0984884499','Masculino');
+INSERT INTO TUTOR VALUES ('002','1503765604','Vianny Darel'	 ,'Blondet Intriago' ,'Ecuatoriana'	,'Las Orquidias'	 ,'2934241','0968581680','Masculino');
+INSERT INTO TUTOR VALUES ('003','1503765604','Johan Mikael'	 ,'Bermudez Intriago','Colombiana'	,'Cdla Universitaria','2934241','0968581680','Masculino');
+INSERT INTO TUTOR VALUES ('004','1308267267','María Cecilia' ,'Intriago Parraga' ,'Argentina'	,'Jocay'			 ,'2934241','0985902196','Femenino');
+INSERT INTO TUTOR VALUES ('005','1307691236','Elias Vicente' ,'Macias Molina'    ,'Ecuatoriana'	,'El Palmar'	  	 ,'2456350','0977784499','Masculino');
+INSERT INTO TUTOR VALUES ('006','1507415604','Maria Elena'	 ,'Intriago Parrales','Venezolana'	,'Alta Gracia'	     ,'2934777','0945401680','Femenino');
+INSERT INTO TUTOR VALUES ('007','1789765604','Ana Gabriela'	 ,'Zambrano Ortiz'   ,'Mexicana'	,'Alta Mira'         ,'2888841','0968581330','Femenino');
+INSERT INTO TUTOR VALUES ('008','1309898567','María Jose'    ,'Zambrano Parraga' ,'Ecuatoriana'	,'Calle 13'			 ,'2741240','0988500196','Femenino');
+
+////////////////ESTUDIANTE////////////////
+INSERT INTO ESTUDIANTE  VALUES ('001','001','1747690170','Vianny Elias'   ,'Blondet Intriago' ,'2019/08/21','Masculino');
+INSERT INTO ESTUDIANTE  VALUES ('002','002','1307777170','Darel Andres'   ,'Blondet Baque'    ,'2018/09/14','Masculino');
+INSERT INTO ESTUDIANTE  VALUES ('003','003','1307699004','Maria Mikaela'  ,'Bermudez Zambrano','2020/07/12','Femenino');
+INSERT INTO ESTUDIANTE  VALUES ('004','004','1307485570','María Mercedes' ,'Intriago Parraga' ,'2017/06/30','Femenino');
+INSERT INTO ESTUDIANTE  VALUES ('005','004','1300100170','Elias Antonio'  ,'Intriago Parraga' ,'2019/05/22','Masculino');
+INSERT INTO ESTUDIANTE  VALUES ('006','005','1000111170','Maria Alejandra','Intriago Parrales','2020/11/24','Femenino');
+INSERT INTO ESTUDIANTE  VALUES ('007','006','1217674850','Cristian Javier','Zambrano Quevedo' ,'2019/12/08','Masculino');
+INSERT INTO ESTUDIANTE  VALUES ('008','007','1307690170','Jose Jose'      ,'Zambrano Arteaga' ,'2018/03/01','Masculino');
+INSERT INTO ESTUDIANTE  VALUES ('009','008','1307690666','Ana  Antonia'   ,'Zambrano Lopez'   ,'2019/02/18','Femenino');
+INSERT INTO ESTUDIANTE  VALUES ('010','008','1307740170','Jose Miguel'    ,'Zambrano Lopez'   ,'2018/01/31','Masculino');
+
+/////////////////DATO_ESTUDIANTE///////////////////
+INSERT INTO DATO_ESTUDIANTE VALUES ('001','001','Los Cactus'        ,'M','22',''		,''				 ,'Denge'	,'Mal estado' ,'Dr. Derek Yepez'	,'1307690170','Vianny Vicente','Blondet Molina'	  ,'Av. Olimpica'		,'0978781119','1308267267','María Cecilia','Intriago Parraga','Av. Olimpica'		,'0985902196','Activo'	 ,'Activo');
+INSERT INTO DATO_ESTUDIANTE VALUES ('002','002','Las Orquidias'     ,'S','20','Al polvo','Buprex'	 	 ,'Fiebre'	,'Buen estado','Dr. Derek Yepez'	,'1503765604','Vianny Darel'  ,'Blondet Intriago' ,'Las Orquidias'		,'0977774499','1308267267','Dayann Nicole','Baque Lopez'	 ,'Los Cactus' 			,'0970042196','Activo'	 ,'Activa');
+INSERT INTO DATO_ESTUDIANTE VALUES ('003','003','Cdla Universitaria','S','19',''		,'Ibuprofeno'	 ,'varicela','Buen estado','Dr. Jairo Colamarco','1503765604','Johan Mikael'  ,'Bermudez Intriago','Las Orquidias'		,'0984100099','1308267267','María Antonia','Intriago Parraga','Alta Mira'			,'098963396' ,'No activo','Activa');
+INSERT INTO DATO_ESTUDIANTE VALUES ('004','004','Jocay'				,'M','23',''		,''				 ,'varicela','Buen estado','Dr. Jairo Colamarco','1307691236','Elias Vicente' ,'Blondet Molina'	  ,'Jocay'				,'0984884499','1308740267','Alejandra Ana','Intriago Zea'	 ,'Cdla Universitaria'	,'0981410096','Activo'	 ,'No activo');
+INSERT INTO DATO_ESTUDIANTE VALUES ('005','005','Jocay'				,'L','22',''		,'Paracetamol'	 ,'varicela','Buen estado','Dr. Samuel Cruzati'	,'1307691236','Elias Vicente' ,'Blondet Molina'	  ,'Cdla Universitaria'	,'0977700099','1308267267','Ana Rosa'	  ,'Intriago Parraga','Cdla Universitaria'	,'0988524196','Activo'	 ,'No activo');
+INSERT INTO DATO_ESTUDIANTE VALUES ('006','006','Alta Gracia'		,'M','22','Lactosa'	,'Ibuprofeno'	 ,'varicela','Buen estado','Dr. Samuel Cruzati' ,'1285690170','Javier Antonio','Macias Molina'	  ,'Av. Olimpica'		,'0984112239','1308267267','María Cecilia','Marin Parraga'   ,'Jocay'				,'0985902196','Activo'	 ,'Activa');
+INSERT INTO DATO_ESTUDIANTE VALUES ('007','007','Alta Mira'			,'L','19',''		,''				 ,'Fiebre'	,'Mal estado' ,'Dr. Esneider Macias','1305666444','Juan Javier'   ,'Rodrigez Paz'	  ,'Alta Gracia'		,'0981212499','1308267267','Maria Elena'  ,'Quijije Parraga' ,'Alta Gracia'			,'0985902196','No activo','Activa');
+INSERT INTO DATO_ESTUDIANTE VALUES ('008','008','Los Cactus'		,'M','18',''		,''				 ,'Fiebre'	,'Buen estado','Dr. Esneider Macias','1361616470','Lucas Marcelo' ,'Zamora Molina'	  ,'Alta Mira'			,'0984877009','1308267267','Ana Gabriela' ,'Subia Parraga'   ,'Jocay'				,'0987414196','No activo','Activa');
+INSERT INTO DATO_ESTUDIANTE VALUES ('009','009','Calle 13'			,'S','20','Al mani'	,'Desloratadina ','Gripe'	,'Buen estado',''					,'1307600170','Vicente Javier','Zambrano Molina'  ,'Calle 13'			,'0982289399','1308267267','María Jose'   ,'Zambranoi Ortiz' ,'Calle 13'			,'0983698696','Activo'	 ,'Activa');
+INSERT INTO DATO_ESTUDIANTE VALUES ('010','010','Calle 13'			,'S','21','Al mani'	,'Desloratadina ','Gripe'	,'Buen estado',''					,'1307600170','Vicente Javier','Zambrano Molina'  ,'Calle 13'			,'0996385279','1308267267','María Jose'   ,'Zambranoi Ortiz' ,'Calle 13'			,'0987111196','Activo'	 ,'Activa');
+
+////////////////////PROFESIONAL////////////////////
+INSERT INTO PROFESIONAL  VALUES ('001','1747690170','Juan Nemesio'   ,'Alcivar Alcivar'    ,'Ecuatoriana','Masculino','Jocay'		,'0968581475');
+INSERT INTO PROFESIONAL  VALUES ('002','1307777170','Maria Juana '   ,'Mendoza Sosa '      ,'Alemana'	 ,'Femenino','Barbasquillo'	,'0974581475');
+INSERT INTO PROFESIONAL  VALUES ('003','1307699004','Luis Ricardo '  ,'Advincula Solorzano','Inglesa'    ,'Masculino','Barbasquillo','0974181475');
+INSERT INTO PROFESIONAL  VALUES ('004','1307485570','Elena Ana' 	 ,'Parraga Zamora'     ,'Ecuatoriana','Femenino' , 'Los Cactus'	,'0966547475');
+
+
+///////////////////PROGRAMA///////////////////////
+INSERT INTO PROGRAMA  VALUES ('001','001','Lenguaje y Comunicación' ,'Enseñar el lenguaje basico acorde a su edad'  ,'Papel, lapiz, borrador, tijera, pegamento','4 meses','1234456');
+INSERT INTO PROGRAMA  VALUES ('002','001','Artes'   				,'Enseñar los colores y la expresion artistica' ,'lapices, pintura, cartulinas'	 			,'5 meses','1425545');
+INSERT INTO PROGRAMA  VALUES ('003','001','Educación Física'  		,'Enseñar el habito de la actividad fisica'		,'Ropa deportiva, pelota de plastico'		,'2 meses','1458863');
+INSERT INTO PROGRAMA  VALUES ('005','002','Lenguaje y Comunicación' ,'Enseñar el lenguaje basico acorde a su edad'  ,'Papel, lapiz, borrador, tijera, pegamento','4 meses','1748856');
+INSERT INTO PROGRAMA  VALUES ('006','002','Artes'   				,'Enseñar los colores y la expresion artistica'	,'lapices, pintura, cartulinas'	 			,'5 meses','1968854');
+INSERT INTO PROGRAMA  VALUES ('007','003','Lenguaje y Comunicación' ,'Enseñar el lenguaje basico acorde a su edad'	,'Papel, lapiz, borrador, tijera, pegamento','4 meses','1002455');
+INSERT INTO PROGRAMA  VALUES ('008','003','Artes' 					,'Enseñar los colores y la expresion artistica'	,'lapices, pintura, cartulinas'    			,'5 meses','1485520');
+INSERT INTO PROGRAMA  VALUES ('009','003','Educación Física'  		,'Enseñar el habito de la actividad fisica'		,'Ropa deportiva, pelota de plastico'    	,'2 meses','1044780');
+INSERT INTO PROGRAMA  VALUES ('010','004','Lenguaje y Comunicación' ,'Enseñar el lenguaje basico acorde a su edad'	,'Papel, lapiz, borrador, tijera, pegamento','4 meses','1024563');
+INSERT INTO PROGRAMA  VALUES ('011','004','Artes'  					,'Enseñar los colores y la expresion artistica'	,'lapices, pintura, cartulinas'    			,'5 meses','1234567');
+
+
+
+
