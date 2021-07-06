@@ -1,0 +1,44 @@
+/////////////////////////
+consulta madre activa
+
+select   
+	 (ESTUDIANTES.NOMBRES_NINOS , ESTUDIANTES.APELLIDOS_NINOS ) as Niños_Kinder, 
+	 DATO_ESTUDIANTE.MADRE_ACTIVA
+from ESTUDIANTES
+inner join DATO_ESTUDIANTE on DATO_ESTUDIANTE.ID_DETALLE=ESTUDIANTES.ID_NINO
+where MADRE_ACTIVA like '%Activa%'
+///////////////////////////
+consulta padre activo
+
+select   
+	 (ESTUDIANTES.NOMBRES_NINOS , ESTUDIANTES.APELLIDOS_NINOS ) as Niños_Kinder, 
+	 DATO_ESTUDIANTE.PADRE_ACTIVO
+from ESTUDIANTES
+inner join DATO_ESTUDIANTE on DATO_ESTUDIANTE.ID_DETALLE=ESTUDIANTES.ID_NINO
+where PADRE_ACTIVO like '%Activo%'
+
+/////////////////////////////////
+Cantidad de calificaciones regulares, buenas y excelentes en cada actividad por cada infante.
+
+Select
+calificacion.id_nino,
+calificacion.id_programa,
+calificacion.calificacion,
+count (calificacion.calificacion) as Cantidad
+From
+public.calificacion
+where calificacion.id_nino = '001'
+Group by calificacion.calificacion, calificacion.id_nino, calificacion.id_programa
+
+///////////////////////////////
+Cantidad de profesores hombres y mujeres que tiene cada programa
+
+SELECT
+PROGRAMA.ACTIVIDAD_PROGRAMA,
+PROFESIONAL.GENERO_PROFESIONAL,
+count (PROFESIONAL.GENERO_PROFESIONAL) AS Genero
+from
+public.PROGRAMA
+inner join public.PROFESIONAL on PROGRAMA.ID_PROGRAMA = PROFESIONAL.ID_PROFESIONAL
+GROUP BY GENERO_PROFESIONAL, ACTIVIDAD_PROGRAMA
+ORDER BY ACTIVIDAD_PROGRAMA
